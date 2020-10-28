@@ -13,7 +13,14 @@ renv::settings$snapshot.type("simple")
 renv::install(c(
     "tidyverse",
     "lubridate",
-    "ggplot2"
+    "ggplot2",
+    "corrplot",
+    "tsibble",
+    "lmtest",
+    "fGarch",
+    "ggpubr",
+    "ggthemes",
+    "viridis"
 ))
 
 renv::snapshot()
