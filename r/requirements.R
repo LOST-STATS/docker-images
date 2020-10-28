@@ -20,7 +20,8 @@ renv::install(c(
     "fGarch",
     "ggpubr",
     "ggthemes",
-    "viridis"
+    "viridis",
+    "tseries"
 ))
 
 renv::snapshot()

@@ -93,6 +93,13 @@
       "Repository": "CRAN",
       "Hash": "fbe4ac267bf42a91e495cc68ad3f8b63"
     },
+    "TTR": {
+      "Package": "TTR",
+      "Version": "0.24.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "7e2c62de2799dc212e5b52526c288e72"
+    },
     "abind": {
       "Package": "abind",
       "Version": "1.4-5",
@@ -730,6 +737,20 @@
       "Repository": "CRAN",
       "Hash": "97def703420c8ab10d8f0e6c72101e02"
     },
+    "quadprog": {
+      "Package": "quadprog",
+      "Version": "1.5-8",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "5f919ae5e7f83a6f91dcf2288943370d"
+    },
+    "quantmod": {
+      "Package": "quantmod",
+      "Version": "0.4.17",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "4de4156e52cd66215066d28c0577a56e"
+    },
     "quantreg": {
       "Package": "quantreg",
       "Version": "5.75",
@@ -966,6 +987,13 @@
       "Repository": "CRAN",
       "Hash": "db6477efcfbffcd9b3758c3c2882cf58"
     },
+    "tseries": {
+      "Package": "tseries",
+      "Version": "0.10-47",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "35ddfebb7e520955418f9dde02ca345d"
+    },
     "tsibble": {
       "Package": "tsibble",
       "Version": "0.9.3",
@@ -1028,6 +1056,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "d4d71a75dd3ea9eb5fa28cc21f9585e2"
+    },
+    "xts": {
+      "Package": "xts",
+      "Version": "0.12.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "ca2fd4ad8ef78cca3aa2b30f992798a8"
     },
     "yaml": {
       "Package": "yaml",
