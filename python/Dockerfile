@@ -1,5 +1,7 @@
 FROM python:3.8
 
+LABEL org.opencontainers.image.source https://github.com/khwilson/lost-docker-images
+
 ENV POETRY_VERSION=1.1.4
 
 # Install user yogi
