@@ -1,6 +1,6 @@
 FROM python:3.8
 
-LABEL org.opencontainers.image.source https://github.com/khwilson/lost-docker-images
+LABEL org.opencontainers.image.source https://github.com/lost-stats/docker-images
 
 ENV POETRY_VERSION=1.1.4
 
