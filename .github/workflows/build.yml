@@ -35,8 +35,8 @@ jobs:
           # Use Docker `latest` tag convention
           [ "$VERSION" == "main" ] && VERSION=latest
 
-          echo "::set-output name=pythontag::ghcr.io/khwilson/tester-python:$VERSION"
-          echo "::set-output name=rtag::ghcr.io/khwilson/tester-r:$VERSION"
+          echo "::set-output name=pythontag::ghcr.io/lost-stats/tester-python:$VERSION"
+          echo "::set-output name=rtag::ghcr.io/lost-stats/tester-r:$VERSION"
 
       - name: Build python docker image
         uses: docker/build-push-action@v2
