@@ -36,7 +36,5 @@ RUN mkdir -p /home/yogi/.local/share/renv \
     && R -e 'install.packages("remotes", repos = "https://cloud.r-project.org")' \
     && R -e 'remotes::install_github("rstudio/renv@0.12.0-30")'
 
-#COPY .Rprofile /home/yogi/.Rprofile
 COPY renv.lock /home/yogi/renv.lock
-#COPY renv/activate.R /home/yogi/renv/activate.R
 RUN R -e 'renv::restore()'

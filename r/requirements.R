@@ -21,7 +21,14 @@ renv::install(c(
     "ggpubr",
     "ggthemes",
     "viridis",
-    "tseries"
+    "tseries",
+    "caret",
+    "glmnet",
+    "janitor",
+    "caTools",
+    "naniar",
+    "gbm",
+    "e1071"
 ))
 
 renv::snapshot()
