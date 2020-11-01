@@ -28,7 +28,9 @@ renv::install(c(
     "caTools",
     "naniar",
     "gbm",
-    "e1071"
+    "e1071",
+    "dummies",
+    "sf"
 ))
 
 renv::snapshot()
