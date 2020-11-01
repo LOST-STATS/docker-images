@@ -36,7 +36,9 @@ renv::install(c(
     "rattle",
     "randomForest",
     "grf",
-    "Metrics"
+    "Metrics",
+    "USAboundaries",
+    "GSODR"
 ))
 
 renv::snapshot()

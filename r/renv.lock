@@ -30,6 +30,13 @@
       "Repository": "RSPM",
       "Hash": "0682504bff16e47db8914d5b5de4deb6"
     },
+    "GSODR": {
+      "Package": "GSODR",
+      "Version": "2.1.2",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "e4bf6f7a448c319a75d132b2b84ed223"
+    },
     "KernSmooth": {
       "Package": "KernSmooth",
       "Version": "2.23-17",
@@ -71,6 +78,27 @@
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "40a55bd0b44719941d103291ac5e9d74"
+    },
+    "R.methodsS3": {
+      "Package": "R.methodsS3",
+      "Version": "1.8.1",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "4bf6453323755202d5909697b6f7c109"
+    },
+    "R.oo": {
+      "Package": "R.oo",
+      "Version": "1.24.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "5709328352717e2f0a9c012be8a97554"
+    },
+    "R.utils": {
+      "Package": "R.utils",
+      "Version": "2.10.1",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "a9e316277ff12a43997266f2f6567780"
     },
     "R6": {
       "Package": "R6",
@@ -127,6 +155,13 @@
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "7e2c62de2799dc212e5b52526c288e72"
+    },
+    "USAboundaries": {
+      "Package": "USAboundaries",
+      "Version": "0.3.1",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "6230ec41b601066d753475948b3bf4d5"
     },
     "UpSetR": {
       "Package": "UpSetR",
@@ -317,6 +352,13 @@
       "Repository": "RSPM",
       "Hash": "b55c32ae818a84109a51f172290c95f2"
     },
+    "countrycode": {
+      "Package": "countrycode",
+      "Version": "1.2.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "c46036853ef73486af84ec5dc5b2443f"
+    },
     "cowplot": {
       "Package": "cowplot",
       "Version": "1.1.0",
@@ -471,6 +513,20 @@
       "Repository": "RSPM",
       "Hash": "44594a07a42e5f91fac9f93fda6d0109"
     },
+    "future": {
+      "Package": "future",
+      "Version": "1.19.1",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "224cbc34a2c97606b0e6311e3bd19e05"
+    },
+    "future.apply": {
+      "Package": "future.apply",
+      "Version": "1.6.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "2efcc8bc4e401067f1e8b7f63ca726c9"
+    },
     "gbm": {
       "Package": "gbm",
       "Version": "2.1.8",
@@ -533,6 +589,13 @@
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "056100917c75e6f8a0d36f8bdd552799"
+    },
+    "globals": {
+      "Package": "globals",
+      "Version": "0.13.1",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "3eb799a11cf9d28314691e44a2eaaa14"
     },
     "glue": {
       "Package": "glue",
@@ -680,6 +743,13 @@
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "361811f31f71f8a617a9a68bf63f1f42"
+    },
+    "listenv": {
+      "Package": "listenv",
+      "Version": "0.8.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "0bde42ee282efb18c7c4e63822f5b4f7"
     },
     "littler": {
       "Package": "littler",

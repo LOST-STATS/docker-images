@@ -10,8 +10,12 @@ matplotlib = "^3.3.2"
 arch = "^4.15"
 seaborn = "^0.11.0"
 plotnine = "^0.7.1"
+geoplot = "^0.4.1"
 tensorflow = "<2.3"
 econml = {git = "https://github.com/khwilson/econml.git", rev = "lost-stats"}
+llvmlite = "<0.35"
+geopandas = "^0.8.1"
+Rtree = "^0.9.4"
 
 [tool.poetry.dev-dependencies]
 

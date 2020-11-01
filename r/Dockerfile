@@ -31,7 +31,7 @@ ENV LC_ALL="en_US.UTF-8" \
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 'E298A3A825C0D65DFD57CBB651716619E084DAB9' \
     && add-apt-repository 'deb http://cloud.r-project.org/bin/linux/ubuntu focal-cran40/' \
     && apt-get update \
-    && apt-get install -y r-base r-base-dev r-recommended r-cran-littler \
+    && apt-get install -y r-base r-base-dev r-recommended \
 
     # Install common dependencies
     && apt-get install -y libgdal26 libgeos-3.8.0 libproj15 libudunits2-dev \
