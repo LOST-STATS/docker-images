@@ -30,7 +30,13 @@ renv::install(c(
     "gbm",
     "e1071",
     "dummies",
-    "sf"
+    "sf",
+    "rpart",
+    "rpart.plot",
+    "rattle",
+    "randomForest",
+    "grf",
+    "Metrics"
 ))
 
 renv::snapshot()

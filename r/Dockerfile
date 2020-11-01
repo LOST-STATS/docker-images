@@ -34,7 +34,7 @@ RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 'E298A3A825C0D65DFD
     && apt-get install -y r-base r-base-dev r-recommended r-cran-littler \
 
     # Install common dependencies
-    && apt-get install -y libgdal26 libgeos-3.8.0 libproj15 libudunits2-0 \
+    && apt-get install -y libgdal26 libgeos-3.8.0 libproj15 libudunits2-dev \
 
     # Install user yogi
     && adduser yogi --disabled-password --quiet \

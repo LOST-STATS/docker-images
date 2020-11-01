@@ -46,7 +46,7 @@ jobs:
           push: true
           tags: ${{ steps.maintag.outputs.pythontag }}
 
-      - name: Build docker image
+      - name: Build r docker image
         uses: docker/build-push-action@v2
         with:
           file: ./r/Dockerfile
