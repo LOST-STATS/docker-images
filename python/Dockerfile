@@ -22,4 +22,5 @@ COPY poetry.lock pyproject.toml /home/yogi/
 RUN bash -c "/home/yogi/.poetryvenv/bin/poetry export -f requirements.txt | grep -v econml > requirements.txt" \
     &&  pip install -r requirements.txt \
     && bash -c "/home/yogi/.poetryvenv/bin/poetry export --without-hashes -f requirements.txt | egrep 'econml|llvmlite' > requirements.txt" \
-    && pip install -r requirements.txt
+    && pip install -r requirements.txt \
+    && rm -rf /home/yogi/.cache /home/yogi/.poetryvenv
