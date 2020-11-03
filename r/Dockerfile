@@ -16,7 +16,6 @@ RUN apt-get update -y \
         wget \
         sudo \
     && rm -rf /var/lib/apt/lists/* \
-
     # Set locale
     && echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen \
     && locale-gen en_US.utf8 \
@@ -32,10 +31,21 @@ RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 'E298A3A825C0D65DFD
     && add-apt-repository 'deb http://cloud.r-project.org/bin/linux/ubuntu focal-cran40/' \
     && apt-get update \
     && apt-get install -y r-base r-base-dev r-recommended \
-
     # Install common dependencies
-    && apt-get install -y libgdal26 libgeos-3.8.0 libproj15 libudunits2-dev \
-
+    && apt-get install -y \
+           gdal-bin \
+           git \
+           libcurl4-openssl-dev \
+           libgdal-dev \
+           libgeos-dev \
+           libicu-dev \
+           libproj-dev \
+           libssl-dev \
+           libudunits2-dev \
+           libxml2-dev \
+           make \
+           pandoc \
+           zlib1g-dev \
     # Install user yogi
     && adduser yogi --disabled-password --quiet \
     && yes | usermod -aG sudo yogi \
