@@ -11,6 +11,7 @@
 renv::settings$snapshot.type("simple")
 
 renv::install(c(
+    "rprojroot",
     "tidyverse",
     "lubridate",
     "ggplot2",
@@ -45,7 +46,19 @@ renv::install(c(
     "skimr",
     "cobalt",
     "interplot",
-    "directlabels"
+    "directlabels",
+    "estimatr",
+    "here",
+    "fixest",
+    "lfe",
+    "rdrobust",
+    "AER",
+    "mfx",
+    "mlogit",
+    "sampleSelection",
+    "ncdf4",
+    "ROCR",
+    "ropensci/USAboundariesData"
 ))
 
 renv::snapshot()

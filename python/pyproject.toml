@@ -16,6 +16,9 @@ econml = {git = "https://github.com/khwilson/econml.git", rev = "lost-stats"}
 llvmlite = "<0.35"
 geopandas = "^0.8.1"
 Rtree = "^0.9.4"
+linearmodels = "^4.24"
+pandas = "^1.2.4"
+scikit-learn = "^0.24.2"
 
 [tool.poetry.dev-dependencies]
 
