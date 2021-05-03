@@ -14,12 +14,14 @@ renv::install(c(
     "tidyverse",
     "lubridate",
     "ggplot2",
+    "callr",
     "corrplot",
     "tsibble",
     "lmtest",
     "fGarch",
     "ggpubr",
     "ggthemes",
+    "viridisLite",
     "viridis",
     "tseries",
     "caret",
@@ -39,7 +41,11 @@ renv::install(c(
     "Metrics",
     "USAboundaries",
     "GSODR",
-    "stargazer"
+    "stargazer",
+    "skimr",
+    "cobalt",
+    "interplot",
+    "directlabels"
 ))
 
 renv::snapshot()
