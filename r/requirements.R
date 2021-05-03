@@ -38,7 +38,8 @@ renv::install(c(
     "grf",
     "Metrics",
     "USAboundaries",
-    "GSODR"
+    "GSODR",
+    "stargazer"
 ))
 
 renv::snapshot()
