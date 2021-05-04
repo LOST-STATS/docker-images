@@ -58,7 +58,16 @@ renv::install(c(
     "sampleSelection",
     "ncdf4",
     "ROCR",
-    "ropensci/USAboundariesData"
+    "ropensci/USAboundariesData",
+    "RItools",
+    "vtable",
+    "Synth",
+    "raster",
+    "fable",
+    "ebal",
+    "rnaturalearth",
+    "gmm",
+    "forecast"
 ))
 
 renv::snapshot()
