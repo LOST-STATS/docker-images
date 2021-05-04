@@ -72,7 +72,8 @@ renv::install(c(
     "collapse",
     "cartogram",
     "rdd",
-    "data.table"
+    "data.table",
+    "rddensity"
 ))
 
 renv::snapshot()

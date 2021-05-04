@@ -1142,6 +1142,13 @@
       "Repository": "RSPM",
       "Hash": "b0edacc02f7a3dad41a1afc385e929f4"
     },
+    "lpdensity": {
+      "Package": "lpdensity",
+      "Version": "2.2",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "2b8afedf83902df82fd1306b6606559b"
+    },
     "lubridate": {
       "Package": "lubridate",
       "Version": "1.7.10",
@@ -1512,6 +1519,13 @@
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "57aaebabda76863a8969e3a75c8ff98a"
+    },
+    "rddensity": {
+      "Package": "rddensity",
+      "Version": "2.2",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "248c319396512c6083bd8165b664b69c"
     },
     "rdrobust": {
       "Package": "rdrobust",
