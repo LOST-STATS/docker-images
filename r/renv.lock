@@ -65,6 +65,13 @@
       "Repository": "RSPM",
       "Hash": "bbff70c8c0357b5b88238c83f680fcd3"
     },
+    "LearnBayes": {
+      "Package": "LearnBayes",
+      "Version": "2.15.1",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "b2dd5e3f910f1ac390f847f35e8c2396"
+    },
     "MASS": {
       "Package": "MASS",
       "Version": "7.3-53",
@@ -364,6 +371,13 @@
       "Repository": "RSPM",
       "Hash": "77b0545e2c16b4e57c8da2d14042b28d"
     },
+    "cartogram": {
+      "Package": "cartogram",
+      "Version": "0.2.2",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "a6c43d01b6f8e748f365da2c1f16c4cb"
+    },
     "cellranger": {
       "Package": "cellranger",
       "Version": "1.1.0",
@@ -434,6 +448,13 @@
       "Repository": "RSPM",
       "Hash": "61155079bcb2b07b4465d791a331a7de"
     },
+    "collapse": {
+      "Package": "collapse",
+      "Version": "1.5.3",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "355486db26369bf9570518051b569fa1"
+    },
     "colorspace": {
       "Package": "colorspace",
       "Version": "1.4-1",
@@ -492,10 +513,10 @@
     },
     "data.table": {
       "Package": "data.table",
-      "Version": "1.13.2",
+      "Version": "1.14.0",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "907b184e0fd13bc19154a8f322920015"
+      "Hash": "d1b8b1a821ee564a3515fa6c6d5c52dc"
     },
     "dbplyr": {
       "Package": "dbplyr",
@@ -503,6 +524,13 @@
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "1f37fa4ab2f5f7eded42f78b9a887182"
+    },
+    "deldir": {
+      "Package": "deldir",
+      "Version": "0.2-10",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "6ba6a411bdd4c1b297bd54e2c5c98385"
     },
     "desc": {
       "Package": "desc",
@@ -601,6 +629,13 @@
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "ec8ca05cffcc70569eaaad8469d2a3a7"
+    },
+    "expm": {
+      "Package": "expm",
+      "Version": "0.999-6",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "1bb0f92b6125ea03dd7142f8eaf36bf5"
     },
     "fBasics": {
       "Package": "fBasics",
@@ -735,6 +770,13 @@
       "Repository": "RSPM",
       "Hash": "158310c26916971b3d3d1a97937588cc"
     },
+    "gdata": {
+      "Package": "gdata",
+      "Version": "2.18.0",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "465ccb84427f5fe2c54f8620666db131"
+    },
     "generics": {
       "Package": "generics",
       "Version": "0.0.2",
@@ -811,6 +853,13 @@
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "f3a9f06d2deb6b9bb2da7de98d4404b4"
+    },
+    "gmodels": {
+      "Package": "gmodels",
+      "Version": "2.18.1",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "beb8ca96406a2828f25e49ab17001c39"
     },
     "googledrive": {
       "Package": "googledrive",
@@ -1275,6 +1324,13 @@
       "Repository": "RSPM",
       "Hash": "285ca01e793958ac6f2c264c84dbb16b"
     },
+    "packcircles": {
+      "Package": "packcircles",
+      "Version": "0.3.4",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "3408abe78d8d062293da345888cccd92"
+    },
     "pbkrtest": {
       "Package": "pbkrtest",
       "Version": "0.4-8.6",
@@ -1449,6 +1505,13 @@
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "6e38ed6bc6a31fe3b941662ab3358da3"
+    },
+    "rdd": {
+      "Package": "rdd",
+      "Version": "0.57",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "57aaebabda76863a8969e3a75c8ff98a"
     },
     "rdrobust": {
       "Package": "rdrobust",
@@ -1672,12 +1735,26 @@
       "Repository": "RSPM",
       "Hash": "e0485290545c0e768c2b50390114da1f"
     },
+    "spData": {
+      "Package": "spData",
+      "Version": "0.3.8",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "be5fc9cc13487505381071422d8346e2"
+    },
     "spatial": {
       "Package": "spatial",
       "Version": "7.3-11",
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "f27a078d834614513608da2c08031130"
+    },
+    "spdep": {
+      "Package": "spdep",
+      "Version": "1.1-7",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "9ef0638fe160bf3e375e8f6b54ec8028"
     },
     "stabledist": {
       "Package": "stabledist",

@@ -67,7 +67,12 @@ renv::install(c(
     "ebal",
     "rnaturalearth",
     "gmm",
-    "forecast"
+    "forecast",
+    "spdep",
+    "collapse",
+    "cartogram",
+    "rdd",
+    "data.table"
 ))
 
 renv::snapshot()
