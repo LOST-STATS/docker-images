@@ -1494,10 +1494,10 @@
     },
     "raster": {
       "Package": "raster",
-      "Version": "3.4-5",
+      "Version": "3.4-10",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "a3ded548110163cf499d63c3932dd499"
+      "Hash": "1d6398dd08391629b5438f9de172f038"
     },
     "rattle": {
       "Package": "rattle",
@@ -1762,6 +1762,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "f27a078d834614513608da2c08031130"
+    },
+    "spatialreg": {
+      "Package": "spatialreg",
+      "Version": "1.1-8",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "2024597011fdad7286f01d2068d3636b"
     },
     "spdep": {
       "Package": "spdep",

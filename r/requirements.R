@@ -73,7 +73,8 @@ renv::install(c(
     "cartogram",
     "rdd",
     "data.table",
-    "rddensity"
+    "rddensity",
+    "spatialreg"
 ))
 
 renv::snapshot()
