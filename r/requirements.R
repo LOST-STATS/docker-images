@@ -74,7 +74,8 @@ renv::install(c(
     "rdd",
     "data.table",
     "rddensity",
-    "spatialreg"
+    "spatialreg",
+    "styler"
 ))
 
 renv::snapshot()
