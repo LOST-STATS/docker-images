@@ -23,6 +23,7 @@ statsmodels = "^0.12.2"
 xlrd = "^2.0.1"
 openpyxl = "^3.0.7"
 libpysal = "^4.4.0"
+spreg = "^1.2.2"
 
 [tool.poetry.dev-dependencies]
 

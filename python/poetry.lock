@@ -235,7 +235,7 @@ statsmodels = ">=0.9"
 tensorflow = ">1.10,<2.3"
 
 [package.extras]
-automl = ["azureml-sdk[automl,explain] (==1.0.83)", "azure-cli"]
+automl = ["azureml-sdk[explain,automl] (==1.0.83)", "azure-cli"]
 
 [package.source]
 type = "git"
@@ -1116,6 +1116,25 @@ tests = ["dask", "pytest (>=3.5)", "pytest-black", "pytest-cov"]
 tox = ["dask", "pytest (>=3.5)", "pytest-black", "pytest-cov", "tox"]
 
 [[package]]
+name = "spreg"
+version = "1.2.2"
+description = "PySAL Spatial Econometrics Package"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+libpysal = ">=4.0.0"
+numpy = ">=1.3"
+pandas = "*"
+scipy = ">=0.11"
+
+[package.extras]
+docs = ["sphinx (>=1.4.3)", "sphinxcontrib-bibtex", "sphinx-bootstrap-theme (>=0.7.0)", "numpydoc", "nbsphinx"]
+plus = ["matplotlib (>=1.5.1)", "seaborn (>=0.7.0)", "geopandas (>=0.2)", "scikit-learn (>=0.17.1)", "bokeh (>=0.11.1)", "geojson (>=1.3.2)", "folium (>=0.2.1)", "mplleaflet (>=0.0.5)", "statsmodels (>=0.6.1)", "numba", "numexpr", "watermark"]
+tests = ["codecov", "coverage", "pytest", "pytest-cov", "twine", "wheel"]
+
+[[package]]
 name = "statsmodels"
 version = "0.12.2"
 description = "Statistical computations and models for Python"
@@ -1261,7 +1280,7 @@ test = ["pytest", "pytest-cov"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "ba9c4cab2ff036f1caba7ccd24ea32c85f9d034e49f2bc8976aad831ed05154b"
+content-hash = "ccca152af60ced03a77951c551934260807d795bc42dd9f90ff1017e60b9cc7d"
 
 [metadata.files]
 absl-py = [
@@ -2040,6 +2059,10 @@ soupsieve = [
 sparse = [
     {file = "sparse-0.11.2-py2.py3-none-any.whl", hash = "sha256:08b937109203a69d1937ad7ea47a3ca4a552a48f7b5c40ba485b37ae6653b204"},
     {file = "sparse-0.11.2.tar.gz", hash = "sha256:bc5c35dbc81242237feb7a8e1f7d9c5e9dd9bb0910f6ec55f50dcc379082864f"},
+]
+spreg = [
+    {file = "spreg-1.2.2-py3-none-any.whl", hash = "sha256:5557798a0d0e05d127a6d359765ec48919e8d81652de8a1c42c8a5f155100df0"},
+    {file = "spreg-1.2.2.tar.gz", hash = "sha256:53aed08af7e5eb1646402fe01323c776d4bfdc4321bf72438177c2adfa0d1916"},
 ]
 statsmodels = [
     {file = "statsmodels-0.12.2-cp36-cp36m-macosx_10_15_x86_64.whl", hash = "sha256:c1d98ce2072f5e772cbf91d05475490368da5d3ee4a3150062330c7b83221ceb"},
